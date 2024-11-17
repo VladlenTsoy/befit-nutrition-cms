@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "proteins",
+  "info": {
+    "singularName": "protein",
+    "pluralName": "proteins",
+    "displayName": "Proteins"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "richtext"
+    }
+  }
+}
