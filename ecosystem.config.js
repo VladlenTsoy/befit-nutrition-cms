@@ -5,6 +5,6 @@ module.exports = {
   apps: [{
     name: process.env.APP_NAME,
     script: 'yarn',
-    args: 'start'
+    args: process.env.NODE_ENV === 'production' ? 'start' : 'develop'
   }]
 }
