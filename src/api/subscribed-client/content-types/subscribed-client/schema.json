@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "subscribed_clients",
+  "info": {
+    "singularName": "subscribed-client",
+    "pluralName": "subscribed-clients",
+    "displayName": "Subscribed clients",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Phone": {
+      "type": "string",
+      "unique": true
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "branch_categories",
+  "info": {
+    "singularName": "branch-category",
+    "pluralName": "branch-categories",
+    "displayName": "Branch Categories",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "Title": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true
+    }
+  }
+}
